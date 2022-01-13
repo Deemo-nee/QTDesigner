@@ -1,11 +1,13 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow
-from Form import Ui_MainWindow
+from platform import Ui_MainWindow
+from PyQt5.QtCore import QFile, QTextStream
+from PyQt5.QtWidgets import QApplication
 
 
 class MainWindow:
     def __init__(self):
-        self.main_win = QMainWindow()
+        self.main_win = QMainWindo5w()
         self.uic = Ui_MainWindow()
         self.uic.setupUi(self.main_win)
 
